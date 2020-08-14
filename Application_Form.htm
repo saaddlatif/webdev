@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Application Form</title>
+</head>
+
+<body>
+	<p align = "center">
+	<a href = "Homepage.htm">Homepage</a> |
+	<a href = "Blog.htm">Blog</a> |
+	<a href = "Gallery.htm">Gallery</a> |
+	<a href = "Student.htm">Student Data</a> |
+	<a href = "Application_form.htm">Application Form</a> |
+	<a href = "Contact.htm">Contact Info</a> |
+	<a href = "Resources.htm">Resources</a>
+	</p>
+	
+	<h1 align = "center"> Application Form </h1>
+	<blockquote>
+	<form>
+	<fieldset>
+		<legend align = "center"><b>Personal Information:</b></legend>
+		<ul>
+			<li>Name: <input type = "text"name = "fullname"></li><br><br>
+			<li>Email: <input type = "email"name = "email"></li><br><br>
+			<li>City: <input type = "text"name = "city"> </li><br><br>
+			<li>Country: <input type = "text"name = "country"></li><br><br>
+			<li>Phone Number: <input type = "Number"name = "Number"></li><br><br>
+			<li>Education: <input type = "text" name = "Education"></li> <br><br>
+		</ul>
+	</fieldset><br>
+			<fieldset>
+			
+				<legend align = "center"><b>Freelancing Information:</b></legend>
+			<ul>
+						<li>Which Platform do you use for freelancing?</li> <br>
+						<input type = "checkbox" name = "Platform"> Upwork
+						<input type = "checkbox" name = "Platform"> Fiverr
+						<input type = "checkbox"name = "Platform"> Reference based work
+						<input type = "checkbox" name = "Platform"> Other? 
+						<input type = "text" name = "Platform"> <br><br>
+						<li>Which languages have you studied? </li><br>
+						<input type = "checkbox"> C++
+						<input type = "checkbox"> Java
+						<input type = "checkbox"> C#
+						<input type = "checkbox"> Python
+						<input type = "checkbox"> HTML
+						<input type = "checkbox"> SQL 
+						<input type = "checkbox" > Other? 
+						<input type = "text" > <br><br>
+						<li>Which Clients do you server? </li><br>
+						<input type = "checkbox" > Foreign 
+						<input type = "checkbox"> Local <br><br>
+						<li>Which is your core area? </li><br>
+						<input type = "radio" name = "corearea"> Writer 
+						<input type = "radio"name = "corearea">Developer
+						<input type = "radio"name = "corearea">Designer
+						<input type = "radio"name = "corearea">Software Developer
+						<input type = "radio"name = "corearea">Mobile Developer
+						<input type = "radio"name = "corearea">Other?
+						<input type = "text" name = "corearea"> <br><br>
+			</ul>
+			</fieldset>
+		<ul>
+			<li>Which training are you interested in:</li><br>
+			<select name = "trainingtype">
+				<option value = "Remote">Remote Training</option>
+				<option value = "office">At office</option>
+				<option value = "Home">Home Training</option>
+			</select><br><br>
+			
+			<li>Any comments about the website?</li><br>
+			<textarea name = "comment" cols = "50" rows = "5"></textarea><br><br>
+			
+			<input type = "submit" value = "Submit this form">
+			<input type = "reset">
+		</ul>
+	</form>
+	</blockquote>
+	<hr>
+	
+	<p align = "center">&copy; Copyright 2020. www.abc.com</p>
+	
+</body>
+
+</html>
+Checkbox basically provides you with a simple checkbox where multiple options can be selected
+With Radio and name = "corearea" we select only one option from all the options
+Input basically takes input from user.
+Name = "corearea" only works with radio not with checkbox
+select option works as the dropdown list from which you can select your option.
